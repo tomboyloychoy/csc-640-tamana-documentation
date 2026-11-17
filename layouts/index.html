@@ -1,0 +1,14 @@
+{{ define "main" }}
+  <section class="hero">
+    <p class="eyebrow">CSC 640 · Semester project</p>
+    <h1>{{ .Title }}</h1>
+    <p class="hero-copy">{{ .Description }}</p>
+    <div class="hero-actions">
+      <a class="button button-primary" href="{{ "setup/" | relURL }}">Get started</a>
+      <a class="button button-secondary" href="https://github.com/tomboyloychoy/csc-640-task-management-app">Explore the app source</a>
+    </div>
+  </section>
+  <article class="home-content prose">
+    {{ .Content }}
+  </article>
+{{ end }}

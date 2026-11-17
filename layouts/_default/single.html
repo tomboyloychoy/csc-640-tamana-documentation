@@ -1,0 +1,12 @@
+{{ define "main" }}
+  <article class="document">
+    <header class="page-heading">
+      <p class="eyebrow">Tamana project documentation</p>
+      <h1>{{ .Title }}</h1>
+      {{ with .Description }}<p class="lede">{{ . }}</p>{{ end }}
+    </header>
+    <div class="prose">
+      {{ .Content }}
+    </div>
+  </article>
+{{ end }}

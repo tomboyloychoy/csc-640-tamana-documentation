@@ -1,0 +1,45 @@
+baseURL = "https://tomboyloychoy.github.io/csc-640-tamana-documentation/"
+languageCode = "en-us"
+title = "Tamana | Project Documentation"
+disableKinds = ["taxonomy", "term"]
+
+[params]
+  description = "Project proposal, setup guide, architecture, API status, and semester evidence for Tamana."
+
+[menu]
+  [[menu.main]]
+    name = "Overview"
+    pageRef = "/"
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    pageRef = "/about"
+    weight = 2
+  [[menu.main]]
+    name = "Setup"
+    pageRef = "/setup"
+    weight = 3
+  [[menu.main]]
+    name = "Proposal"
+    pageRef = "/proposal"
+    weight = 4
+  [[menu.main]]
+    name = "Architecture"
+    pageRef = "/architecture"
+    weight = 5
+  [[menu.main]]
+    name = "API"
+    pageRef = "/api"
+    weight = 6
+  [[menu.main]]
+    name = "Deployment"
+    pageRef = "/deployment"
+    weight = 7
+  [[menu.main]]
+    name = "Progress"
+    pageRef = "/progress"
+    weight = 8
+  [[menu.main]]
+    name = "Peer review"
+    pageRef = "/peer-review"
+    weight = 9
